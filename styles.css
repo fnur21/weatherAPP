@@ -1,0 +1,87 @@
+/* poppins yazı fontunu kullanabilmek için google'dan bu gömülü kodunu aldık */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* uygulamanın bütün kapmasımı ilgilendirdiği için yıldız ile ayarlama yap */
+*{
+margin: 0px;
+padding: 0px;
+}
+
+body{
+    font-family: "poppins";
+    background-image:url("weather.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh; 
+    /* bu height:100vh bulunduğu tarayıcının yüksekliği kadar aralansın demek */
+
+  
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.app{
+    width: 400px;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.3);
+    /* saydamlık vermek için opacity */
+    opacity: 0.9;
+    padding: 30px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* align-items yatayda ve dikeyde ortalansın demek */
+
+    /*  bu div kutusuna bir gölge verelim */
+    box-shadow: 5px 5px 10px grey;
+}
+.header{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title{
+    color:rgb(4, 24, 77)
+}
+#searchInput{
+    width: 100%;
+    padding: 10px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid grey;
+    outline: none;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 15px;
+
+}
+.content{
+    display:flex;
+    flex-direction: column;
+    /* flex-direction row yaparsak yanyana column yaparsan alt alta gelir */
+    align-items: center;
+    margin-top: 20px;
+
+}
+
+.cityName{
+    font-size: 40px;
+    margin-bottom: 15px;
+    }
+
+    .degree{
+        font-size: 60px;
+        margin-bottom: 10px;
+    }
+    .desc{
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
