@@ -21,6 +21,6 @@ Bu proje, kullanıcıdan alınan şehir bilgisine göre **hava durumu verilerini
 - Sıcaklık, hava durumu (açık, kapalı, yağmurlu), nem, rüzgar hızı gibi bilgiler
 - Hatalı ya da eksik şehir adı girilirse kullanıcıya uyarı mesajı
 
-## Nasıl Çalıştırılır?
+
 
 
